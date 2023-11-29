@@ -1,0 +1,26 @@
+Categorias,Tradução,Descrição,Tipo,Subtipo
+ID,ID,Número de identificação,quantitativa,discreta
+Limit_Bal,Limite bancário,Quantia de crédito que foi disponibilizada,quantitativa,contínua
+Sex,Sexo,"Gênero sexual (1 = Masculino, 2 = Feminino)",qualitativa,nominal
+Education,Educação,"Nível educacional (1 = pós-graduação, 2 = universidade, 3 = ensino médio, 4 = outro)",qualitativa,nominal
+Marriage,Casamento,"Estado civil (1 = casado, 2 = solteiro, 3 = outro)",qualitativa,nominal
+Age,Idade,Idade do cliente (em anos),quantitativa,discreta
+Pay_0,Pagamento (0),"Status do pagamento em Setembro/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Pay_2,Pagamento (2),"Status do pagamento em Agosto/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Pay_3,Pagamento (3),"Status do pagamento em Julho/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Pay_4,Pagamento (4),"Status do pagamento em Junho/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Pay_5,Pagamento (5),"Status do pagamento em Maio/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Pay_6,Pagamento (6),"Status do pagamento em Abril/2005 (-2 = fatura total paga, -1 = pagamento total em dia, 0 = pagamento parcial, 1 = atrasado em 1 mês, 2 = atrasado em 2 mês, 3 = atrasado em 3 mês, 4 = atrasado em 4 mês, 5 = atrasado em 5 mês, 6 = atrasado em 6 mês, 7 = atrasado em 7 mês, 8 = atrasado em 8 mês, 9 = atrasado em 9 meses ou mais)",qualitativa,ordinal
+Bill_Amt1,Quantia da conta (1),Saldo em Setembro/2005,quantitativa,contínua
+Bill_Amt2,Quantia da conta (2),Saldo em Agosto/2005,quantitativa,contínua
+Bill_Amt3,Quantia da conta (3),Saldo em Julho/2005,quantitativa,contínua
+Bill_Amt4,Quantia da conta (4),Saldo em Junho/2005,quantitativa,contínua
+Bill_Amt5,Quantia da conta (5),Saldo em Maio/2005,quantitativa,contínua
+Bill_Amt6,Quantia da conta (6),Saldo em Abril/2005,quantitativa,contínua
+Pay_Amt1,Quantia paga (1),Quantia paga em Setembro/2005,quantitativa,contínua
+Pay_Amt2,Quantia paga (2),Quantia paga em Agosto/2005,quantitativa,contínua
+Pay_Amt3,Quantia paga (3),Quantia paga em Julho/2005,quantitativa,contínua
+Pay_Amt4,Quantia paga (4),Quantia paga em Junho/2005,quantitativa,contínua
+Pay_Amt5,Quantia paga (5),Quantia paga em Maio/2005,quantitativa,contínua
+Pay_Amt6,Quantia paga (6),Quantia paga em Abril/2005,quantitativa,contínua
+default payment next month,Pagamento no próximo mês,"O cliente irá pagar no mês seguinte? (1 = sim, 2 = não)",qualitativa,nominal
