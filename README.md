@@ -40,7 +40,7 @@ A equipe realizou a preparação dos dados para análise comparativa conforme as
 
 
 ## Metodologia da Análise Comparativa
-A equipe adotou a metodologia de validação cruzada k-fold para avaliar o desempenho dos modelos, dividindo o conjunto de dados em k subconjuntos, treinando o modelo em k-1 desses subconjuntos e testando no subconjunto restante. Foram utilizados quatro modelos distintos para comparação, incluindo um modelo baseline (Regressão Logística) e outros três modelos (Random Forest, SVM e um modelo adicional).
+A equipe adotou a metodologia de validação cruzada k-fold para avaliar o desempenho dos modelos, dividindo o conjunto de dados em k subconjuntos, treinando o modelo em k-1 desses subconjuntos e testando no subconjunto restante. Foram utilizados quatro modelos distintos para comparação, incluindo um modelo baseline (Regressão Logística) e outros três modelos (Random Forest, SVM e Decision Tree Classifier).
 
 
 ## Configuração do Experimento
@@ -48,17 +48,19 @@ Os dados foram divididos em conjuntos de treino e teste, e as métricas de avali
 
 
 ## Resultados e Discussão
-Os resultados da análise comparativa são apresentados na tabela abaixo:
+Os resultados detalhados da análise comparativa dos modelos estão apresentados na tabela abaixo:
 
-| Modelo               | Acurácia Média | F1-Score Médio |
-|----------------------|----------------|----------------|
-| Regressão Logística   | 82.00%         | 46.70%         |
-| Random Forest        | 81.48%         | 46.79%         |
-| SVM                  | 81.88%         | 43.46%         |
+| Modelo                    | Acurácia Média | F1-Score Médio |
+|---------------------------|----------------|----------------|
+| Regressão Logística       | 82.03%         | 46.79%         |
+| Random Forest             | 81.60%         | 46.98%         |
+| SVM                       | 81.96%         | 43.87%         |
+| Decision Tree Classifier  | 72.92%         | 40.78%         |
 
-Os modelos foram avaliados considerando as métricas mencionadas, e a Regressão Logística destacou-se como o mais eficaz em nossa análise comparativa, apresentando uma Acurácia Média de 82% e um F1-Score Médio de 46.70%. Esses resultados são particularmente notáveis, considerando a complexidade do problema e a presença de desequilíbrio nas classes.
 
-Além disso, os modelos de Random Forest e SVM também forneceram resultados sólidos, mas a Regressão Logística permaneceu como a escolha preferencial.
+Ao avaliar as métricas de Acurácia Média e F1-Score Médio, observamos que a Regressão Logística se destacou como o modelo mais eficaz, apresentando uma Acurácia Média de 82.03% e um F1-Score Médio de 46.79%. Esses resultados são particularmente significativos, considerando a complexidade do problema e a presença de desequilíbrio nas classes.
+
+Os modelos de Random Forest e SVM também demonstraram desempenho sólido, mas a Regressão Logística permanece como a escolha preferencial com base nas métricas avaliadas. Essa análise proporciona insights valiosos sobre a capacidade dos modelos em lidar com os desafios específicos do conjunto de dados em questão.
 
 
 ## Considerações Finais
