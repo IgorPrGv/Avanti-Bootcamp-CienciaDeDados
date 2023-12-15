@@ -4,7 +4,6 @@
 ## Desenvolvedores
 - [Laissa Gama](https://github.com/laissaGmA)
 - [Igor Pereira](https://github.com/IgorPrGv2)
-- [Guilherme Oliveira](https://github.com/oliveiraggui)
 
 
 ## Resumo
@@ -67,6 +66,10 @@ Os modelos de Random Forest e SVM também demonstraram desempenho sólido, mas a
 Este projeto não apenas forneceu uma solução para o problema inicial, mas também ofereceu insights valiosos sobre a natureza dos dados e a eficácia de diferentes abordagens. Futuros trabalhos podem envolver a expansão do conjunto de dados, a inclusão de características adicionais ou a exploração de algoritmos mais avançados.
 
 Em resumo, o projeto demonstra a aplicação bem-sucedida de técnicas de ciência de dados e aprendizado de máquina na resolução do problema proposto, e o modelo de Regressão Logística otimizado é recomendado para implementação em cenários práticos.
+
+### Slides de Apresentação
+- [Predição de Inadimplência em Cartões de Crédito.pdf](https://github.com/atlantico-academy/equipe-05/tree/master/docs/slides) 
+
 
 ## Utilização
 Para replicar o projeto, recomenda-se a utilização do Poetry. Para mais informações e instruções de instalação, acesse [Poetry](https://python-poetry.org/).
